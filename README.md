@@ -84,7 +84,21 @@ Press Play in the Unity Editor. Then:
 All tile behaviour is driven by the CSV file at:
 Assets/StreamingAssets/tiles.csv
 Each row defines a tile type with the following columns:
-ColumnDescriptionTileNameMust match the prefab name exactly (e.g. Road_Straight)WeightRelative spawn probability (higher = more frequent)SocketNSocket identifier for the North faceSocketSSocket identifier for the South faceSocketESocket identifier for the East faceSocketWSocket identifier for the West faceZoneTypeAssigns tile to a zone category (Road / Building / Green)
+
+ColumnDescriptionTileNameMust match the prefab name exactly (e.g. Road_Straight)
+
+WeightRelative spawn probability (higher = more frequent)
+
+Socket NSocket identifier for the North face
+
+Socket SSocket identifier for the South face
+
+Socket ESocket identifier for the East face
+
+Socket WSocket identifier for the West
+
+faceZoneTypeAssigns tile to a zone category (Road / Building / Green)
+
 Socket values must match symmetrically — if tile A has SocketN = road, the tile placed to its north must have SocketS = road.
 To modify tile weights or add variants, edit tiles.csv directly. No recompilation is needed; the loader reads from StreamingAssets at runtime.
 
