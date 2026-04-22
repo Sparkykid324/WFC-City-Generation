@@ -66,8 +66,10 @@ Tiles
 
 
 Unity will reimport all assets automatically.
-Open Assets/Scenes/CityGenerator.unity.
 
+**Usage**
+
+Open Assets/Scenes/CityGenerator.unity.
 Press Play in the Unity Editor. Then:
 
 1. In the hierarchy, find WFC_Manager
