@@ -1,0 +1,28 @@
+tileName,prefabName,northSocket,eastSocket,southSocket,westSocket,weight,spawnRotation
+# --- Ground ---,,,,,,,
+Grass,Grass_Randomiser,grass,grass,grass,grass,8,0
+# --- Straight Roads ---,,,,,,,
+Road_NS,Road_Straight,road,grass,road,grass,2,0
+Road_EW,Road_Straight,grass,road,grass,road,2,90
+# --- Corners ---,,,,,,,
+Road_Corner_NE,Road_Corner,road,road,grass,grass,1,0
+Road_Corner_SE,Road_Corner,grass,road,road,grass,1,90
+Road_Corner_SW,Road_Corner,grass,grass,road,road,1,180
+Road_Corner_NW,Road_Corner,road,grass,grass,road,1,270
+# --- T-Junctions ---,,,,,,,
+Road_T_NES,Road_TJunction,road,road,road,grass,0.2,0
+Road_T_ESW,Road_TJunction,grass,road,road,road,0.2,90
+Road_T_NSW,Road_TJunction,road,grass,road,road,0.2,180
+Road_T_NEW,Road_TJunction,road,road,grass,road,0.2,270
+# --- Crossroads ---,,,,,,,
+Road_Cross,Road_Cross,road,road,road,road,0.05,0
+# --- Road Dead Ends ---,,,,,,,
+Road_End_N,Road_Straight,road,grass,grass,grass,0.8,0
+Road_End_E,Road_Straight,grass,road,grass,grass,0.8,90
+Road_End_S,Road_Straight,grass,grass,road,grass,0.8,180
+Road_End_W,Road_Straight,grass,grass,grass,road,0.8,270
+# --- Buildings (one road-facing side only) ---,,,,,,,
+Building_N,Building_Randomiser,road,grass,grass,grass,0.5,0
+Building_E,Building_Randomiser,grass,road,grass,grass,0.5,90
+Building_S,Building_Randomiser,grass,grass,road,grass,0.5,180
+Building_W,Building_Randomiser,grass,grass,grass,road,0.5,270
