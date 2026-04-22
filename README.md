@@ -95,9 +95,9 @@ Socket SSocket identifier for the South face
 
 Socket ESocket identifier for the East face
 
-Socket WSocket identifier for the West
+Socket WSocket identifier for the West face
 
-faceZoneTypeAssigns tile to a zone category (Road / Building / Green)
+ZoneTypeAssigns tile to a zone category (Road / Building / Green)
 
 Socket values must match symmetrically — if tile A has SocketN = road, the tile placed to its north must have SocketS = road.
 To modify tile weights or add variants, edit tiles.csv directly. No recompilation is needed; the loader reads from StreamingAssets at runtime.
