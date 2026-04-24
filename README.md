@@ -31,12 +31,6 @@ Runs on Windows (tested); Mac/Linux not verified
 
 **Getting Started**
 
-Two options are available depending on how you want to work with the project.
-
-**Option A** — Unity Package (Recommended)
-
-*The packaged .unitypackage file is the simplest way to get everything into an existing Unity project.*
-
 Create a new Unity 6 LTS project (3D Core template).
 
 In the menu bar, go to Assets → Import Package → Custom Package.
@@ -48,24 +42,6 @@ Import all assets when prompted.
 Open the scene at Assets/Scenes/CityGenerator.unity.
 
 Press Play. The generator will run automatically.
-
-**Option B** — *Manual Folder Import*
-
-If you prefer to bring the folders in directly:
-
-Create a new Unity 6 LTS project (3D Core template).
-Clone or download this repository.
-Copy the following folders into your project's Assets/ directory:
-
-Art
-Misc
-Scenes
-Scripts
-StreamingAssets
-Tiles
-
-
-Unity will reimport all assets automatically.
 
 **Usage**
 
